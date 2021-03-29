@@ -1,19 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> <!-- Idioma objetivo del archivo -->
 
-	<head>
+	<head> <!-- cabecera del documento -->
 		<meta charset = "utf-8"/>
-		<meta name="description" content = "Mi primera pagina web!"/>
+		<meta name="description" content = "Mi primera pagina web!"/>	
 		<meta name= "keywords" content = "HTML5, CSS3, JAVASCRIPT"/>
-		
-		<title>
-			ArenBits
-		</title>
-
-		Hola mundo!
+		<title>ArenBits</title>
+		<link rel = "stylesheet" href = "misestilos.css">
 	</head>
 
 	<body>
-		Mi primera pagina web! XD
+		<header>
+			<h1>Mi primera pagina web! XD</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li>Inicio</li>
+				<li>Imagenes</li>
+				<li>Videos</li>
+				<li>Contacto</li>
+			</ul>
+		</nav>
+
+		<section>
+
+			<article>
+				<header>
+					<hgroup>
+						<h1>Titulo del mensaje uno</h1>
+						<h2>sutitulo del mensaje uno</h2>
+					</hgroup>
+					
+					<p>Publicado hoy.</p>
+
+				</header>
+
+				Este es el texto de mi primer mensaje.
+				
+				<figure>
+					<img src="images.png">
+					<figcaption>
+						Esta es la imagen del primer mensaje.
+					</figcaption>
+				</figure>
+				<footer>
+					<p>comentarios (0)</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<h1>Titulo del mensaje dos</h1>
+				</header>
+				Este es el texto de mi segundo mensaje
+
+				<footer>
+					<p>Comentarios (0)</p>
+				</footer>
+			</article>
+			
+
+		</section>
+
+		<aside>
+			<blockquote>Mensaje uno</blockquote>
+			<blockquote>Mensaje dos</blockquote>
+		</aside>
+
+		<footer>
+
+			Derechos reservados &copy; 2021.
+
+		</footer>
+
 	</body>
+
 </html>
