@@ -1,3 +1,7 @@
-#texto1{
+#texto_id{
     font-size: 50px;
+}
+
+.texto_class{
+    font-size: 30px;
 }
